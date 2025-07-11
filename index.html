@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Todo List</h1>
+        <div class="container">
+            <div class="full_input">
+                <input type="text" placeholder="Ajouter une nouvelle tâche..." id="inputField">
+                <button id="addToDo">+</button>
+            </div>
+            <ul class="todo-list" id="todoList">
+                <!-- Les tâches seront ajoutées ici -->
+            </ul>
+            <div class="stats">
+                <span id="totalTasks">Total: 0</span>
+                <span id="completedTasks">Terminées: 0</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
